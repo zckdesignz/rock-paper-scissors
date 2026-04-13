@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.choices {
+  margin: 30px 0;
+}
+
+.choice {
+  font-size: 18px;
+  padding: 15px 25px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background: #ddd;
+  transition: 0.2s;
+}
+
+.choice:hover {
+  background: #ccc;
+}
+
+/* SELECTED BUTTON */
+.selected {
+  outline: 3px solid #333;
+}
+
+/* RESULT STATES */
+.win {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.lose {
+  background-color: #f44336;
+  color: white;
+}
+
+.tie {
+  background-color: #777;
+  color: white;
+}
+
+/* RESULT TEXT */
+.result {
+  font-size: 20px;
+  margin: 20px;
+}
+
+/* SCOREBOARD */
+.scoreboard {
+  margin-top: 30px;
+  font-size: 18px;
+}

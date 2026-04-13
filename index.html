@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Rock • Paper • Scissors</h1>
+      <p class="subtitle">Click a choice. Watch the page update. Use the console when it breaks.</p>
+
+      <section class="choices" aria-label="Player choices">
+        <button class="choice" data-choice="rock" type="button">Rock</button>
+        <button class="choice" data-choice="paper" type="button">Paper</button>
+        <button class="choice" data-choice="scissors" type="button">Scissors</button>
+      </section>
+
+      <section class="status" aria-live="polite">
+        <p>Player: <span id="playerChoice">—</span></p>
+        <p>Computer: <span id="computerChoice">—</span></p>
+        <p id="result">Make your choice.</p>
+      </section>
+
+      <section class="scoreboard" aria-label="Scoreboard">
+  <p>Games: <span id="games">0</span></p>
+  <p>Player wins: <span id="playerWins">0</span></p>
+  <p>Computer wins: <span id="computerWins">0</span></p>
+  <p>Ties: <span id="ties">0</span></p>
+</section>
+
+    </main>
+  </body>
+</html>
